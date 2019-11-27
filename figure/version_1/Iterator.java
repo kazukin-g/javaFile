@@ -2,7 +2,7 @@
  * 要素の数え上げを実装するIteratorを実装させるクラス
  * @version 1
  * @author kazukin-g
- * @sinse 1
+ * @since 1
  */
 public interface Iterator{
   /**
@@ -15,5 +15,5 @@ public interface Iterator{
    * @return 次の要素
    */
   public abstract Object next();
-  
+
 }

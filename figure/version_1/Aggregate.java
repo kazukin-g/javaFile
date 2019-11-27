@@ -2,7 +2,7 @@
  * 集合体に対応するIteratorを一個生成するメソッドを強制するインタフェース。
  * @version 1
  * @author kazukin-g
- * @sinse 1
+ * @since 1
  */
 public interface Aggregate{
   /**
@@ -10,5 +10,5 @@ public interface Aggregate{
    * @return Iteratorインタフェースを継承したクラス。
    */
   public abstract Iterator iterator();
-  
+
 }

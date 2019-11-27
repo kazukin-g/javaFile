@@ -2,7 +2,7 @@
  * 三角形のクラス。Figureクラスを継承している。
  * @version 1
  * @author kazukin-g
- * @sinse 1
+ * @since 1
  */
 public class Triangle extends Figure{
   /**
@@ -16,17 +16,18 @@ public class Triangle extends Figure{
   /**
    * 三角形を表示するメソッド。
    */
-  @override
+  @Override
   public void display(){
     for(int i = 0; i < h; i++){
       for(int j = 0; j < h; j++){
-        if(j < h){
+        if(j <= i){
           System.out.print("＊");
         } else {
           System.out.print("　");
         }
+      }
       System.out.println();
     }
   }
-  
+
 }

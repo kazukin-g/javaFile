@@ -2,7 +2,7 @@
  * 四角形のクラス。Figureクラスを継承している。
  * @version 1
  * @author kazukin-g
- * @sinse 1
+ * @since 1
  */
 public class Square extends Figure{
   /**
@@ -12,11 +12,11 @@ public class Square extends Figure{
   public Square(int h){
     super(h);
   }
-  
+
   /**
    * 四角形を表示するメソッド。
    */
-  @override
+  @Override
   public void display(){
     for(int i = 0; i < h; i++){
       for(int j = 0; j < h; j++){
@@ -25,5 +25,5 @@ public class Square extends Figure{
       System.out.println();
     }
   }
-  
+
 }
